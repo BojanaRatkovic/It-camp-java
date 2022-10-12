@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="background-image: url('pokemon.png');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;" id="body">
+
+    <div>
+        <div style="text-align: center;padding-top: 70px;">
+            <img style="border: 10px solid yellow;"
+            id="slikapikachu"
+            src="https://cdn.europosters.eu/image/1300/posters/pokemon-pikachu-asleep-i101272.jpg"
+            alt="sl"
+            width="900px"
+            height="550px"
+            />
+        </div>
+        <div style="text-align: center;">
+        <button style="
+            background-color: rgb(196, 213, 213);
+            border: 3px solid yellow;" 
+            id="pikachu">PIKACHU</button>
+
+        <button  style="
+            background-color: rgb(196, 213, 213);
+            border: 3px solid rgb(25, 163, 253);" 
+            id="bulbasaur">BULBASAUR</button>
+
+        <button style="
+            background-color: rgb(196, 213, 213);
+            border: 3px solid rgba(128, 57, 57, 0.873);"
+            id="evee">EVEE</button>
+
+        <button style="
+            background-color: rgb(196, 213, 213);
+            border: 3px solid rgb(12, 229, 211);"
+            id="squirtle"> SQUIRTLE</button>
+
+        <button style="
+            background-color: rgb(196, 213, 213);
+            border: 3px solid red;" 
+            id="charmander">CHARMANDER</button>
+
+        <button style="
+            background-color: rgb(196, 213, 213);
+            border: 3px solid rgb(179, 55, 76);"
+            id="vulpix">VULPIX</button>
+
+        <button style="
+            background-color: rgb(196, 213, 213);
+            border: 3px solid rgb(226, 107, 127);" 
+            id="jigglypuff">JIGGLYPUFF</button>
+
+        <button style="
+            background-color: rgb(196, 213, 213);
+            border: 3px solid brown;"
+            id="staryu">STARYU</button>
+
+        <button style="
+            background-color: rgb(196, 213, 213);
+            border: 3px solid pink" 
+            id="clefairy">CLEFAIRY</button>
+
+        <button style="
+            background-color: rgb(196, 213, 213);
+            border: 3px solid grey;" 
+            id="onix">ONIX</button>
+
+        </div>
+    </div>
+
+    <script>
+        document
+        .getElementById("pikachu")
+        .addEventListener("click" , function() {
+            document.getElementById("slikapikachu").src =
+            "https://cdn.europosters.eu/image/1300/posters/pokemon-pikachu-asleep-i101272.jpg"
+        });
+        
+        document
+        .getElementById("bulbasaur")
+        .addEventListener("click" , function () {
+            document.getElementById("slikapikachu").src =
+            "https://www.thefactsite.com/wp-content/uploads/2018/04/Bulbasaur-facts.jpg"
+            document.getElementById("slikapikachu").style = "border: 10px solid rgb(25, 163, 253)";
+        });
+
+        document
+        .getElementById("evee")
+        .addEventListener("click" , function () {
+            document.getElementById("slikapikachu").src =
+            "https://maplehorst.com/img/lists/89/20-cutest-pok-mon-all-time-4.png"
+            document.getElementById("slikapikachu").style = "border: 10px solid rgba(128, 57, 57, 0.873)";
+        });
+        
+        document
+        .getElementById("squirtle")
+        .addEventListener("click" , function () {
+            document.getElementById("slikapikachu").src =
+            "https://maplehorst.com/img/lists/89/20-cutest-pok-mon-all-time-13.jpg"
+            document.getElementById("slikapikachu").style = "border: 10px solid rgb(12, 229, 211)";
+        });
+
+        document
+        .getElementById("charmander")
+        .addEventListener("click" , function () {
+            document.getElementById("slikapikachu").src =
+            "https://maplehorst.com/img/lists/89/20-cutest-pok-mon-all-time-14.jpg"
+        document.getElementById("slikapikachu").style = "border: 10px solid red";
+        });
+
+        document
+        .getElementById("vulpix")
+        .addEventListener("click" , function () {
+            document.getElementById("slikapikachu").src =
+            "https://maplehorst.com/img/lists/89/20-cutest-pok-mon-all-time-3.png"
+            document.getElementById("slikapikachu").style = "border: 10px solid rgb(179, 55, 76)";
+        });
+        document
+        .getElementById("jigglypuff")
+        .addEventListener("click" , function () {
+            document.getElementById("slikapikachu").src =
+            "https://maplehorst.com/img/lists/89/20-cutest-pok-mon-all-time-2.jpg"
+            document.getElementById("slikapikachu").style = "border: 10px solid rgb(226, 107, 127)";
+        });
+        document
+        .getElementById("staryu")
+        .addEventListener("click" , function () {
+            document.getElementById("slikapikachu").src =
+            "https://www.pokepedia.fr/images/8/87/Stari_d%27Ondine.png"
+            document.getElementById("slikapikachu").style = "border: 10px solid brown";
+        });
+        document
+        .getElementById("clefairy")
+        .addEventListener("click" , function () {
+            document.getElementById("slikapikachu").src =
+            "https://assets.reedpopcdn.com/pokemon_go_clefairy.jpg/BROK/resize/1200x1200%3E/format/jpg/quality/70/pokemon_go_clefairy.jpg"
+            document.getElementById("slikapikachu").style = "border: 10px solid pink";
+        });
+        document
+        .getElementById("onix")
+        .addEventListener("click" , function () {
+            document.getElementById("slikapikachu").src =
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4Y7h4TieACtOxnHW66XYDHHOy9EgpD4vAdQ&usqp=CAU"
+            document.getElementById("slikapikachu").style = "border: 10px solid grey";
+        });
+
+    </script>
+</body>
+</html>
