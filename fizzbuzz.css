@@ -3,7 +3,7 @@
     margin: 0;
 }
 .loops{
-    background: -webkit-linear-gradient(rgb(116, 195, 79)0%,rgb(51, 99, 51)60%);
+    background: -webkit-linear-gradient(rgba(27, 164, 137, 0.597)0%,rgb(45, 83, 83));
     display: flex;
     justify-content: center;
     align-items: center;
