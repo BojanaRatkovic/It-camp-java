@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, sans-serif;
+}
+body {
+  background: -webkit-linear-gradient(rgb(43, 167, 216) 0%,rgb(6, 51, 79) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.todo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+.app {
+  width: 450px;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 5px;
+  box-shadow: 2px 2px 6px 6px gray;
+}
+.naslov h2 p {
+  font-size: 20px;
+  font-weight: 600;
+}
+.naslov p {
+  margin-top: -10px;
+}
+.new-todo input {
+  padding: 5px;
+  width: 351px;
+}
+.new-todo button {
+  background-color: rgb(152, 54, 238);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 17px;
+}
+.new-todo input::placeholder {
+  color: gray;
+}
+.list-items {
+  margin-top: 20px;
+}
+.list,
+.list-items {
+  color: black;
+}
+.list-items {
+  width: 409px;
+  height: 36px;
+  text-align: left;
+  padding: 5px;
+  background-color: gainsboro;
+  border: 1px solid rgba(218, 211, 211, 0.784);
+}
+.end {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.n {
+  padding-top: 13px;
+  margin-left: 20px;
+}
+.end button {
+  background-color: rgb(61, 11, 108);
+  border: 1px solid rgb(72, 17, 124);
+  border-radius: 2px;
+  color: white;
+  padding: 3px 17px;
+  margin-right: 20px;
+}
