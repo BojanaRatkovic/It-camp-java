@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body id="body">
+    <div class="wrapper">
+      <div style="position: relative;">
+        <div class="goal-div" id="goal-gif">
+          <img src="goal.webp" alt="">
+        </div>
+        <div class="result" id="average">
+          <span id="time">00:00</span>
+        </div>
+        <div class="result" id="average">
+          <p>Morocco <span id="moroccoScore">0</span></p>
+          <p>:</p>
+          <p><span id="franceScore">0</span> France</p>
+        </div>
+        <div>
+          <!-- <input type="number" id="min" placeholder="Minute" /> -->
+          <input type="text" id="score" placeholder="Football player" />
+          <select id="team">
+            <option value="" disabled selected>Select team</option>
+            <option value="morocco">Morocco</option>
+            <option value="France">France</option>
+          </select>
+          <select id="event">
+            <option value="" disabled selected>Select event</option>
+            <option value="goal">Goal</option>
+            <option value="yellowcard">Yellow card</option>
+            <option value="redcard">Red card</option>
+          </select>
+        </div>
+        <div class="flex">
+          <button id="addGoal">Goal!</button>
+        </div>
+        <ul id="listOfGoals">
+          <!-- <li style="text-align: right;">5 Muhamed</li>
+          <li style="text-align: left;">5 Muhamed</li> -->
+        </ul>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
