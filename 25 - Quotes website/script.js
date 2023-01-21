@@ -6,7 +6,7 @@ function renderQuotes() {
   parentEl.innerHTML = "";
   quotes.forEach(function (item, index) {
     var childEl = document.createElement("li");
-    childEl.textContent = item.quoteText + "-" + item.quoteAuthor;
+    childEl.textContent = item.quoteText + " - " + item.quoteAuthor + " - " + item.quoteSource;
     parentEl.appendChild(childEl);
   });
 }
