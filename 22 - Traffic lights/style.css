@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(35, 105, 120);
+    flex-direction: column;
+}
+.semafor {
+    width: 110px;
+    height: 50%;
+    border: 3px solid black;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-evenly;
+    gap: 5px;
+    padding: 10px;
+    background-color: black;
+}
+.svetlo {
+    border: 2px solid rgb(180, 73, 73);
+    border-radius: 60px;
+    flex: 1;
+}
+.time {
+    font-size: 40px;
+}
+/*#crveno {
+    background-color: red;
+}
+#zuto {
+    background-color: yellow;
+}
+#zeleno {
+    background-color: green;
+}*/
