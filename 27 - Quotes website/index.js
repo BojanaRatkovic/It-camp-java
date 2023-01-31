@@ -62,7 +62,6 @@ function renderQuotes() {
     childEl.appendChild(editEl);
     childEl.appendChild(deleteEl);
     }
-
     parentEl.appendChild(childEl);
   });
 }
