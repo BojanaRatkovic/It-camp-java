@@ -47,7 +47,7 @@ function renderQuotes() {
       window.location.href = "edit-quote.html?quoteId=" + item._id;
     };
 
-    deleteEl.src = "remove.png";
+    deleteEl.src = "delete.png";
     deleteEl.style = "width: 30px";
     deleteEl.onclick = function () {
       deleteQuote(item._id);
