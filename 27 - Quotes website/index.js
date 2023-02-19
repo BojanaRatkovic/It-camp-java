@@ -1,7 +1,7 @@
-var quotes = [];
-var allQuotes = [];
+let quotes = [];
+let allQuotes = [];
 
-function likeQuote(id) {
+const likeQuote = (id) => {
   fetch("https://js-course-server.onrender.com/quotes/like/" + id, {
     method: "PATCH",
   }).then((response) => {
@@ -9,7 +9,7 @@ function likeQuote(id) {
   });
 }
 
-function deleteQuote(id) {
+const deleteQuote = (id) => {
   fetch("https://js-course-server.onrender.com/quotes/delete/" + id, {
     method: "DELETE",
     headers: {
